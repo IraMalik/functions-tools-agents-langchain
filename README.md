@@ -40,6 +40,8 @@ Uses of OpenAI functions:
 - Tool Usage - in LangChain, tools are the functions & services an LLM can use to extend its capabilities. eg: Search, Math, SQL, etc. Selecting from multiple possible tools is called routing
 
 ## Conversational Agent
-Agent - combination of LLMs and code. LLMs reason about what steps to take and call for actions
-Agent loop -  chooses a tool to use, calls it and observes the output, stopping conditions - could be LLM determined or hardcoded
-Using agent_executor to implement agent loop and add error handling, early stopping, etc
+- Agent - combination of LLMs and code. LLMs reason about what steps to take and call for actions
+- Agent loop -  chooses a tool to use, calls it and observes the output, stopping conditions - could be LLM determined or hardcoded
+- Using agent_executor class to implement agent loop and add error handling, early stopping, etc
+
+Content written using concepts explained in the course material (videos)
