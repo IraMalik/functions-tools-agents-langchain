@@ -22,7 +22,7 @@ Interface - that runnables expose
 Corresponding async methods - ainvoke, astream, abatch
 2. Common properties - input & output schema
 
-Benifits of LCEL:
+Benefits of LCEL:
 - Async, Batch & Streaming Support
 - Fallbacks - alternative plans that may be used in emergencies as LLMs are unpredictable
 - Parallelism - LLMs can be time-consuming, LCEL makes it easier to run components in parallel
@@ -32,7 +32,7 @@ To build a complex chain, import embeddings and vector stores for the retreiver.
 We can also 'bind' parameters/ functions to our model.
 
 ## OpenAI Function Calling in LangChain
-Pydantic - data validation library for Python - makes it easy to define schemas and export them to JSON, works with python type annotations
+Pydantic - data validation library for Python - makes it easy to define schemas and export them to JSON, works with python type annotations.
 
 Uses of OpenAI functions:
 - Tagging - LLM can evaluate input text and generate structured output/object with desired tags, given a structure description (eg: extract some sentiment & language, will return an output with these tags) 
